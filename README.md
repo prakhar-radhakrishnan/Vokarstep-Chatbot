@@ -1,40 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Vokarstep Assignment 🚀
 
-## Getting Started
+This is a **Next.js** project built for the **Vokarstep Full Stack Developer Intern Assignment**.  
+The application includes **screen sharing, microphone toggle, a chat system with file upload, and a bottom navigation bar**.
 
-First, run the development server:
+---
 
-```bash
+## 📌 Features & Functionality
+
+✅ **Screen Sharing** (Start & Stop with a **Green** and **Black** button)  
+✅ **Microphone Toggle** (Call button turns **blue when active**)  
+✅ **Chat System** (Chat UI with **file upload** 📎 and message display)  
+✅ **Bottom Navigation Bar** (Three buttons: **Call, Screen Share, Chat**)  
+✅ **Adaptive Layout** (Chat opens alongside screen share, closing chat restores layout)  
+
+---
+
+## ⚡ Tech Stack Used
+
+- **Next.js** (React Framework)
+- **Recoil** (State Management)
+- **Material UI** (Component Library)
+- **CSS Modules** for Styling
+- **JavaScript (ES6+) & TypeScript Support**
+- **HTML5 & CSS3**
+
+---
+
+## 💻 How to Install and Run the Project Locally
+
+To run this project on your **local machine**, follow these steps:
+
+### **1️⃣ Clone the Repository**
+```sh
+git clone https://github.com/prakhar-radhakrishnan/Vokarstep-Chatbot.git
+
+2️⃣ Navigate to the Project Directory
+
+cd vokarstep-assignment
+
+3️⃣ Install Dependencies
+Ensure you have Node.js (v16 or later) installed. Then run:
+
+npm install
+
+4️⃣ Start the Development Server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5️⃣ Open the Application
+Once the server is running, open your browser and go to:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+http://localhost:3000
